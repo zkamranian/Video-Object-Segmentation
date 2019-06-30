@@ -1,6 +1,6 @@
 Joint Motion Boundary Detection and CNN-based Feature Visualization for Video Object Segmentation 
 
-Version 1
+Version 1.0
 ----------------------------------------------------------------------------------------------------------------------------------
 The source code is prepared for video object segmentation [I,II]. 
 The code can be run on the videos which their objects have been already trained in VGG-16. However, it can be applied to any videos, provided that a new CNN is trained on a dataset that includes its common object class.
@@ -21,7 +21,7 @@ Using the code:
 4- Please download and compile Matlab wrappers from (http://calvin.inf.ed.ac.uk/software/fast-video-segmentation/)
 to find motion boundary detection [4].
 
-[4] Papazoglou A, Ferrari V (2013) Fast object segmentation in unconstrained video. In: Computer Vision (ICCV) International Conference, IEEE, pp 1777–1784. 
+[4] Papazoglou A, Ferrari V (2013) Fast object segmentation in unconstrained video. In: Computer Vision (ICCV) International Conference, IEEE, pp 1777â€“1784. 
 
 5- run main_demo.m
 
@@ -39,5 +39,5 @@ For further information, please do not hesitate to contact zahra.kamranian@eng.u
 
 If you use this software for academic research, please cite the following publication:
 
-[I] Kamranian Z, Tombari F, Nilchi ARN, Monadjemi A, Navab N (2018) Co-segmentation via visualization. Journal of Visual Communication and Image Representation 55:201–214.
+[I] Kamranian Z, Tombari F, Nilchi ARN, Monadjemi A, Navab N (2018) Co-segmentation via visualization. Journal of Visual Communication and Image Representation 55:201â€“214.
 [II] Kamranian Z, Nilchi ARN, Sadeghian H, Tombari F, Navab N (2019)Joint Motion Boundary Detection and CNN-based Feature Visualization for Video Object Segmentation. Neural Computing with Applications.
