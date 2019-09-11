@@ -54,6 +54,7 @@ param.img_names = img_names_t;
 param.imgstyle = imgstyle;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% *******compute flow and inMaps*******
+% Note: This part is just for video object segmentation:
 fprintf('Compute optical flow....\n');
 video_path = [img_path,'newVideo/'];
 if ~exist(video_path,'file')
@@ -130,7 +131,9 @@ Heat_mapFile=[out_path 'heatmapSP_coarse_new05_sp.mat'];
 if exist(Heat_mapFile,'file') 
     load(Heat_mapFile)
 else
-      % create scribbled frames
+    % create scribbled images
+    %     [Lheatmap, scribbled_im] = create_scribbled_image(dataset,coarseSeg05,coarseLabel05,net);
+    % create scribbled frames
     [Lheatmap, scribbled_im] = create_scribbled_frame_V1(coarseSeg05,inMap,coarseLabel05,net,featureVector,param);
     save(Heat_mapFile, 'Lheatmap','scribbled_im');
 end
