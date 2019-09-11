@@ -1,10 +1,12 @@
+
 Joint Motion Boundary Detection and CNN-based Feature Visualization for Video Object Segmentation 
 
-Version 1.0
-----------------------------------------------------------------------------------------------------------------------------------
-The source code is prepared for video object segmentation [I,II]. 
-The code can be run on the videos which their objects have been already trained in VGG-16. However, it can be applied to any videos, provided that a new CNN is trained on a dataset that includes its common object class.
+Co-segmentation via Visualization
 
+Version 1
+---------------------------------------------------------------------------------------------------------------------------------
+The source code is prepared for both image co-segmentation and video object segmentation [I,II]. 
+The code can be run on the related images or videos which their objects have been already trained in VGG-16. However, it can be applied to any image groups or videos, provided that a new CNN is trained on a dataset that includes its common object class.
 Using the code:
 
 1- Please download, install and compile Matconvnet from (http://www.vlfeat.org/matconvnet/). To speed up code execution, please compile the software in GPU support version.
