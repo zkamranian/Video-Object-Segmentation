@@ -37,7 +37,7 @@ Thus, some results may are different from what is reported on the paper [II].
  
 [5] X. Dong, J. Shen, L. Shao, M.-H. Yang, Interactive cosegmentation using global and local energy optimization, Image Processing, IEEE Transactions on 24 (2015) 3966{3977.
 
-For further information, please do not hesitate to contact zahra.kamranian@eng.ui.ac.ir
+For further information, please do not hesitate to contact zahra_kamranian@yahoo.com
 
 If you use this software for academic research, please cite the following publication:
 
