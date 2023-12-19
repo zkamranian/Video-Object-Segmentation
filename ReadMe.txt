@@ -1,4 +1,3 @@
-[![Video Preview](https://github.com/zkamranian/Video-Object-Segmentation/blob/master/video-object-segmentation.avi)](https://github.com/zkamranian/Video-Object-Segmentation/blob/master/video-object-segmentation.avi)
 
 Joint Motion Boundary Detection and CNN-based Feature Visualization for Video Object Segmentation 
 
